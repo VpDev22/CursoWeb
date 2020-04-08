@@ -159,21 +159,35 @@ textarea {
   }
   
   div.informacion-evento p i{
-    color: #fe4918
+    color: #fe4918;
+    font-size: 2rem;
+    
   }
   p.fecha{
     float: left;
   }
   p.slogan{
-  text-transform: none;
-  
+  text-transform: none !important;
   }
+  p.slogan span {
+    font-weight: bold;
+  }
+
   p.ciudad{
     float: right;
     text-align: right;
   }
   h1.nombre-sitio{
+    font-size: 5.9vw;
+    text-transform: uppercase ;
     font-family: 'PT Sans', sans-serif;
+  }
+  @media only screen and (min-width:768px){
+    h1.nombre-sitio{
+      font-size: 11.5vw;
+      margin: 0;
+      line-height: 1;
+    }
   }
   
   
