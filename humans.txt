@@ -1,3 +1,15 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:da712254c4ad57ad4b6a24efcbadb9fabfbc2f92375bcfb106bc1f84c7b7a5bf
-size 229
+# humanstxt.org/
+# The humans responsible & technology colophon
+
+# TEAM
+
+    <name> -- <role> -- <twitter>
+
+# THANKS
+
+    <name>
+
+# TECHNOLOGY COLOPHON
+
+    CSS3, HTML5
+    Apache Server Configs, jQuery, Modernizr, Normalize.css
