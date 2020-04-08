@@ -256,10 +256,24 @@ textarea {
   h3 {
     orphans: 3;
     widows: 3;
+    font-family: 'Open Sans', sans-serif;
+
   }
   h2,
   h3 {
     page-break-after: avoid;
+    font-family: 'Oswald', sans-serif;
   }
+  
+
+
+  
+
+  h1.nombre-sitio{
+    font-family: 'PT Sans', sans-serif;
+  }
+  
+
+
 }
 
