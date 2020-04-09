@@ -105,15 +105,16 @@ textarea {
   }
   
   body{
-    background-color: #f2f2f2;
+    background-color: #000000;
     font-family: 'Open Sans', sans-serif;
+    
   }
   h2{
     font-family: 'Oswald', sans-serif;
   }
   /** Header **/
   div.hero{
-    background-image: url(../img/encabezado.jpg);
+    background-image: url(../img/encabezado2.jpg);
     height: 100vh;
     background-position: top center;
     background-size: cover;
@@ -141,8 +142,10 @@ textarea {
   div.informacion-evento{
     text-align: center;
     color: #ffffff;
-  
+    text-shadow: 1px 1px 3px black;
+
   }
+  
   @media only screen and (min-width: 768px){
     div.informacion-evento{
       width: 70%;
@@ -156,11 +159,14 @@ textarea {
     display: inline;
     font-size: 20px;
     text-transform: uppercase;
+    
+
   }
   
   div.informacion-evento p i{
-    color: #fe4918;
+    color: #5d18fe;
     font-size: 2rem;
+    padding: 5px;
     
   }
   p.fecha{
