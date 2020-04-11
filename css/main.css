@@ -353,6 +353,7 @@ textarea {
   /**Eventos**/
   section.programa{
     position: relative;
+    height: auto;
   }
   div.contenedor-video{
     max-width: 100%;
@@ -516,7 +517,11 @@ textarea {
     opacity: 0;
     }
    
-
+/*contador*/
+div.contador{
+  position: relative;
+  height: auto;
+}
 
 /* ==========================================================================
    Helper classes
